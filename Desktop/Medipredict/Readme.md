@@ -1,18 +1,18 @@
-📌 Project Overview
+## 📌 Project Overview
 
 Small hospitals generate vast amounts of patient data but often lack systems to analyse it effectively. This project explores data-driven forecasting to help hospitals predict resource needs, such as:
 
-🛏 Beds
+## 🛏 Beds
 
 💨 Oxygen supply
 
 🏥 Critical care units
 
-👨‍⚕️ Medical staff allocation
+## 👨‍⚕️ Medical staff allocation
 
 By leveraging historical patient data and predictive analytics, hospitals can improve preparedness, optimize resources, and enhance patient care.
 
-✨ Features
+## ✨ Features
 
 🔹 Data Collection & Integration – Aggregate historical patient records and treatment details.
 
@@ -24,7 +24,7 @@ By leveraging historical patient data and predictive analytics, hospitals can im
 
 🔹 Alerts & Notifications – Real-time alerts for upcoming resource shortages.
 
-💡 Benefits
+## 💡 Benefits
 
 ✅ Improved Preparedness – Proactively manage surges in patient inflow.
 
@@ -34,13 +34,13 @@ By leveraging historical patient data and predictive analytics, hospitals can im
 
 ✅ Enhanced Patient Care – Critical patients receive timely attention.
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 Languages: Python 🐍, R 📊
 
 Database: MySQL 🗄 / MongoDB 🍃
 
-Visualization: Tableau 📈, Power BI, Matplotlib/Seaborn
+Visualization: Tableau 📈, Power BI, Matplotlib/Seaborn.
 
 Machine Learning: Regression, Time-Series Forecasting (ARIMA, LSTM)
 
@@ -54,7 +54,7 @@ Forecasting: Apply time-series & regression models to predict resource demand.
 
 Visualization & Alerts: Display forecasts on dashboards & generate automated notifications.
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Integration with real-time hospital admission systems.
 
