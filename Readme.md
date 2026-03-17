@@ -132,3 +132,5 @@ Medipredict/
 - Code, data, and outputs are kept independent
 - Folder names are simple and consistent
 - The structure is designed for easy collaboration and reuse
+
+We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
