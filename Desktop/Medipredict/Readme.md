@@ -104,3 +104,31 @@ This project assumes that the historical patient data accurately represents hosp
 One possible gap in the repository could be limited documentation explaining how the dataset was collected or how the models can be reproduced. Without clear setup instructions, new contributors may find it difficult to run the project.
 
 An improvement that would make the repository easier to understand would be adding step-by-step instructions for running the project, including environment setup, dataset explanation, and model training steps.
+
+## 📁 Project Structure
+
+This project follows a clean and modular Data Science structure to ensure clarity, scalability, and reproducibility.
+
+Medipredict/
+│
+├── data/
+│   ├── raw/        # Original, unmodified datasets
+│   └── processed/  # Cleaned and transformed data
+│
+├── notebooks/      # Jupyter notebooks for analysis and exploration
+│
+├── scripts/        # Reusable Python scripts and functions
+│
+├── outputs/
+│   ├── figures/    # Visualizations and charts
+│   └── reports/    # Final reports and summaries
+│
+└── README.md       # Project documentation
+✅ Add This Section Too (Important for marks)
+## ⚙️ Project Organization Principles
+
+- Raw data is never modified
+- Processed data is stored separately
+- Code, data, and outputs are kept independent
+- Folder names are simple and consistent
+- The structure is designed for easy collaboration and reuse
