@@ -1,17 +1,44 @@
-# Simple data analysis script
+# Numeric Data Types
+a = 10
+b = 2.5
 
-# Sample data
-names = ["Alice", "Bob", "Charlie", "David"]
-ages = [25, 30, 28, 22]
-sales = [200, 300, 250, 400]
+print("Integer value:", a)
+print("Float value:", b)
 
-# Calculate total sales
-total_sales = sum(sales)
+print("Addition:", a + b)
+print("Division:", a / b)
 
-# Calculate average age
-average_age = sum(ages) / len(ages)
 
-# Print results
-print("Names:", names)
-print("Total Sales:", total_sales)
-print("Average Age:", average_age)
+# String Data Types
+name = "Yashika"
+greeting = "Hello"
+
+print(greeting + " " + name)
+
+
+# Mixing Types (Important)
+age = 20
+
+# Wrong way (will error)
+# print("Age is " + age)
+
+# Correct way
+print("Age is " + str(age))
+
+
+# Type Conversion
+num_str = "50"
+num_int = int(num_str)
+
+print("Converted number:", num_int + 10)
+
+
+# Type Checking
+print(type(a))
+print(type(b))
+print(type(name))
+print(type(num_str))
+
+
+# Bonus (to impress)
+print(f"My name is {name} and I am {age} years old")
