@@ -1,44 +1,36 @@
-# Numeric Data Types
-a = 10
-b = 2.5
+# LIST
+print("---- LIST ----")
+fruits = ["apple", "banana", "cherry"]
 
-print("Integer value:", a)
-print("Float value:", b)
+print("Original list:", fruits)
 
-print("Addition:", a + b)
-print("Division:", a / b)
+fruits.append("orange")
+fruits.remove("banana")
+fruits[0] = "mango"
 
-
-# String Data Types
-name = "Yashika"
-greeting = "Hello"
-
-print(greeting + " " + name)
+print("Updated list:", fruits)
 
 
-# Mixing Types (Important)
-age = 20
+# TUPLE
+print("\n---- TUPLE ----")
+colors = ("red", "green", "blue")
 
-# Wrong way (will error)
-# print("Age is " + age)
+print("Tuple:", colors)
 
-# Correct way
-print("Age is " + str(age))
-
-
-# Type Conversion
-num_str = "50"
-num_int = int(num_str)
-
-print("Converted number:", num_int + 10)
+# Uncomment to show error
+# colors[0] = "yellow"
 
 
-# Type Checking
-print(type(a))
-print(type(b))
-print(type(name))
-print(type(num_str))
+# DICTIONARY
+print("\n---- DICTIONARY ----")
+student = {
+    "name": "Yashika",
+    "age": 19
+}
 
+print("Original dictionary:", student)
 
-# Bonus (to impress)
-print(f"My name is {name} and I am {age} years old")
+student["age"] = 20
+student["grade"] = "A"
+
+print("Updated dictionary:", student)
