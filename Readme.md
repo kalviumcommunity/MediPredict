@@ -139,3 +139,5 @@ Medipredict/
 - Created Code cells for execution
 - Demonstrated separation between logic and explanation
 - Structured notebook for readability
+
+We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
