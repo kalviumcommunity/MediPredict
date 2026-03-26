@@ -133,4 +133,11 @@ Medipredict/
 - Folder names are simple and consistent
 - The structure is designed for easy collaboration and reuse
 
+## Milestone 4.8 - Code vs Markdown Cells
+
+- Created Markdown cells for explanation
+- Created Code cells for execution
+- Demonstrated separation between logic and explanation
+- Structured notebook for readability
+
 We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
