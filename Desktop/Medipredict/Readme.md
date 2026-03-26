@@ -132,3 +132,10 @@ Medipredict/
 - Code, data, and outputs are kept independent
 - Folder names are simple and consistent
 - The structure is designed for easy collaboration and reuse
+
+## Milestone 4.8 - Code vs Markdown Cells
+
+- Created Markdown cells for explanation
+- Created Code cells for execution
+- Demonstrated separation between logic and explanation
+- Structured notebook for readability
