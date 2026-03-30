@@ -1,40 +1,21 @@
-# 1. Simple function
-def greet():
-    print("Hello! Welcome to Python Functions")
-
-# Calling the function
-greet()
-
-
-print("-----")
-
-
-# 2. Function with parameters
-def greet_user(name):
-    print("Hello", name)
-
-greet_user("Yashuuu")
-
-
-print("-----")
-
-
-# 3. Function with return value
+# Function 1: Add two numbers
 def add_numbers(a, b):
     return a + b
 
-result = add_numbers(5, 3)
-print("Sum:", result)
+
+# Function 2: Multiply two numbers
+def multiply_numbers(x, y):
+    return x * y
 
 
-print("-----")
+# Calling functions and storing results
+sum_result = add_numbers(5, 3)
+product_result = multiply_numbers(2, 4)
 
+# Using returned values again
+final_result = add_numbers(sum_result, product_result)
 
-# 4. Function using condition
-def check_even_odd(number):
-    if number % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
-print("Number is:", check_even_odd(4))
+# Printing results (ONLY outside functions)
+print("Sum:", sum_result)
+print("Product:", product_result)
+print("Final Result (Sum + Product):", final_result)
