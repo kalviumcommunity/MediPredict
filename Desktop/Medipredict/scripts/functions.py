@@ -1,21 +1,21 @@
-# Function 1: Add two numbers
-def add_numbers(a, b):
-    return a + b
+# Function to add two numbers and return the result
+def add_numbers(first_number, second_number):
+    return first_number + second_number
 
 
-# Function 2: Multiply two numbers
-def multiply_numbers(x, y):
-    return x * y
+# Function to multiply two numbers and return the result
+def multiply_numbers(first_number, second_number):
+    return first_number * second_number
 
 
-# Calling functions and storing results
+# Calling functions and storing results for reuse
 sum_result = add_numbers(5, 3)
 product_result = multiply_numbers(2, 4)
 
-# Using returned values again
+# Combine previous results to demonstrate function reuse
 final_result = add_numbers(sum_result, product_result)
 
-# Printing results (ONLY outside functions)
+# Display results to the user (kept outside functions for clarity)
 print("Sum:", sum_result)
 print("Product:", product_result)
 print("Final Result (Sum + Product):", final_result)
