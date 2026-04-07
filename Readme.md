@@ -143,23 +143,24 @@ Medipredict/
 We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
 
 
-## Milestone 4.31 - Pandas DataFrame Inspection
+## Milestone 4.32 - Pandas DataFrame Selection
 
-This milestone demonstrates comprehensive inspection of Pandas DataFrames to understand their structure and content.
+This milestone demonstrates comprehensive data selection techniques in Pandas DataFrames.
 
 ## What was implemented
-- **DataFrame loading**: Loading healthcare dataset into Pandas DataFrame
-- **Shape inspection**: Examining number of rows and columns
-- **Data type inspection**: Analyzing column data types
-- **Structure interpretation**: Understanding what rows, columns, and types represent
-- **Clean code**: Readable and well-documented inspection process
+- **Single column selection**: Using dot notation and bracket notation
+- **Multiple column selection**: Selecting multiple columns with a list
+- **Positional row selection**: Using .iloc[] for integer-based indexing
+- **Row slicing**: Selecting ranges of rows with slicing
+- **Label-based selection**: Using .loc[] for label-based indexing
+- **Combined selection**: Selecting specific rows and columns together
+- **Conditional selection**: Filtering rows based on conditions
 
 ## Key Features
-- Clear identification of dataset dimensions
-- Detailed analysis of column data types
-- Logical interpretation of DataFrame structure
-- Healthcare dataset context for meaningful examples
-- Step-by-step inspection methodology
+- Clean, readable selection logic
+- Healthcare dataset example with patient data
+- Comprehensive examples covering all required selection techniques
+- Clear explanations for each selection method
 
 ## Result
-Successfully demonstrated all DataFrame inspection requirements with clear interpretation of the healthcare dataset structure and content.
+Successfully demonstrated all Pandas DataFrame selection requirements with intentional and readable code.
