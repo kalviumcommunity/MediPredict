@@ -141,3 +141,25 @@ Medipredict/
 - Structured notebook for readability
 
 We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
+
+
+## Milestone 4.31 - Pandas DataFrame Inspection
+
+This milestone demonstrates comprehensive inspection of Pandas DataFrames to understand their structure and content.
+
+## What was implemented
+- **DataFrame loading**: Loading healthcare dataset into Pandas DataFrame
+- **Shape inspection**: Examining number of rows and columns
+- **Data type inspection**: Analyzing column data types
+- **Structure interpretation**: Understanding what rows, columns, and types represent
+- **Clean code**: Readable and well-documented inspection process
+
+## Key Features
+- Clear identification of dataset dimensions
+- Detailed analysis of column data types
+- Logical interpretation of DataFrame structure
+- Healthcare dataset context for meaningful examples
+- Step-by-step inspection methodology
+
+## Result
+Successfully demonstrated all DataFrame inspection requirements with clear interpretation of the healthcare dataset structure and content.
