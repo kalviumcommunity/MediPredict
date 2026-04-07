@@ -141,3 +141,25 @@ Medipredict/
 - Structured notebook for readability
 
 We created a separate feature branch for data organization and raised a pull request to merge it into the main branch. This ensures controlled changes and better collaboration.
+
+
+## Milestone 4.33 - Missing Value Detection in Pandas
+
+This milestone demonstrates comprehensive detection of missing values in Pandas DataFrames.
+
+## What was implemented
+- **DataFrame loading**: Loading healthcare dataset with intentional missing values
+- **Missing value detection**: Identifying null/NaN values across the dataset
+- **Column-wise summary**: Counting missing values per column
+- **Row-wise inspection**: Examining rows containing missing data
+- **Clean code**: Readable and well-documented detection process
+
+## Key Features
+- Detection of missing values using multiple methods
+- Identification of columns with missing data patterns
+- Counting missing values per column with percentages
+- Inspection of specific rows containing missing values
+- Healthcare dataset with realistic missing data scenarios
+
+## Result
+Successfully demonstrated all missing value detection requirements with clear identification of data quality issues without modifying the dataset.
