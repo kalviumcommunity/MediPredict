@@ -163,3 +163,24 @@ This milestone demonstrates comprehensive detection of missing values in Pandas 
 
 ## Result
 Successfully demonstrated all missing value detection requirements with clear identification of data quality issues without modifying the dataset.
+## Milestone 4.32 - Pandas DataFrame Selection
+
+This milestone demonstrates comprehensive data selection techniques in Pandas DataFrames.
+
+## What was implemented
+- **Single column selection**: Using dot notation and bracket notation
+- **Multiple column selection**: Selecting multiple columns with a list
+- **Positional row selection**: Using .iloc[] for integer-based indexing
+- **Row slicing**: Selecting ranges of rows with slicing
+- **Label-based selection**: Using .loc[] for label-based indexing
+- **Combined selection**: Selecting specific rows and columns together
+- **Conditional selection**: Filtering rows based on conditions
+
+## Key Features
+- Clean, readable selection logic
+- Healthcare dataset example with patient data
+- Comprehensive examples covering all required selection techniques
+- Clear explanations for each selection method
+
+## Result
+Successfully demonstrated all Pandas DataFrame selection requirements with intentional and readable code.
