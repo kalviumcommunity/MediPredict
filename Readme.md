@@ -163,6 +163,29 @@ This milestone demonstrates comprehensive detection of missing values in Pandas 
 
 ## Result
 Successfully demonstrated all missing value detection requirements with clear identification of data quality issues without modifying the dataset.
+
+## Milestone 4.35 - Duplicate Detection and Removal
+
+This milestone demonstrates comprehensive detection and removal of duplicate records in Pandas DataFrames.
+
+## What was implemented
+- **DataFrame loading**: Loading healthcare dataset with intentional duplicate records
+- **Duplicate detection**: Identifying duplicate rows using various methods
+- **Duplicate inspection**: Analyzing duplicate entries and their patterns
+- **Duplicate removal**: Removing duplicates using appropriate strategies
+- **Verification**: Confirming duplicates have been handled correctly
+- **Clean code**: Well-organized and documented deduplication process
+
+## Key Features
+- Detection of duplicate rows using multiple criteria
+- Identification of duplicate count and patterns
+- Removal of duplicates with different strategies
+- Shape comparison before and after deduplication
+- Verification of duplicate handling effectiveness
+
+## Result
+Successfully demonstrated all duplicate detection and removal requirements with clear verification of dataset deduplication.
+
 ## Milestone 4.32 - Pandas DataFrame Selection
 
 This milestone demonstrates comprehensive data selection techniques in Pandas DataFrames.
