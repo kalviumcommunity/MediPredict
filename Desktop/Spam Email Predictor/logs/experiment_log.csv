@@ -1,0 +1,4 @@
+timestamp,model_name,accuracy,precision,recall,f1_score,notes
+2026-04-29 09:30,NaiveBayes,0.94,0.93,0.95,0.94,baseline model
+2026-04-29 10:15,LogisticRegression,0.96,0.95,0.97,0.96,used TF-IDF
+2026-04-29 11:00,SVM,0.97,0.96,0.98,0.97,improved performance
